@@ -11,7 +11,7 @@
       "block.time": 2,
       "minimum.fee": 100000,
       "minimum.pow": 0,
-      "api.proxy.url": "http://192.168.64.1:5101/rpc",
+      "api.proxy.url": "http://127.0.0.1:5101/rpc",
       "nexus.name": "testnet",
       "node.mode": "normal",
       "node.host": "http://*:5105",
@@ -49,11 +49,9 @@
         "P2KLvu4UWXFz4r86PsCrtPdJSgkqCSWTZHjDgqdXXJ6Se1v"
       ]
     },
-
     "Oracle": {
       "neoscan.api": "mankinighost.phantasma.io:4000",
       "neo.rpc.specific.nodes": [],
-
       "eth.fee.urls": [
         {
           "url": "https://gasprice.poa.network/",
@@ -74,7 +72,6 @@
           "defaultFee": 0
         }
       ],
-
       "bsc.fee.urls": [
         {
           "url": "https://bscgas.info/gas",
@@ -83,7 +80,6 @@
           "defaultFee": 15
         }
       ],
-
       "pricer.coingecko.enabled": true,
       "pricer.supportedtokens": [
         {
@@ -152,19 +148,14 @@
           "cryptocompareid": "BNB"
         }
       ],
-
-      
-
       "eth.block.confirmations": 12,
       "eth.gas.limit": 100000,
       "crypto.compare.key": ""
     },
-
     "Simulator": {
       "simulator.enabled": true,
       "simulator.generate.blocks": false
     },
-
     "App": {
       "shell.enabled": false,
       "node.start": true,
@@ -173,21 +164,17 @@
       "prompt": "[{0}] spook> ",
       "history": ".history"
     },
-
-
     "Log": {
       "file.path": "/tmp/",
       "file.name": "spook.log",
       "file.level": "Debug",
       "shell.level": "Debug"
     },
-
     "RPC": {
       "rpc.address": "localhost",
       "rpc.port": 7654
     },
-
-    "Webhook" : {
+    "Webhook": {
       "webhook.token": "",
       "webhook.channel": "",
       "webhook.prefix": ""
